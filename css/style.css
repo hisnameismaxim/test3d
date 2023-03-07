@@ -82,7 +82,7 @@ h2 {
 	padding-bottom: 30px;
 }
 .__about {
-	padding-top: 100px;
+	padding-top: 40px;
 }
 
 .content_button {
@@ -115,6 +115,9 @@ h2 {
 		padding-top: 20px;
 	}
 	.header img {
-		visibility: hidden;
+		display: none;
+	}
+	.menu {
+		display: none;
 	}
 }
