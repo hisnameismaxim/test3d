@@ -1,0 +1,120 @@
+/* Обнуление */
+*,
+*::before,
+*::after {
+	padding: 0;
+	margin: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+a {
+	text-decoration: none;
+}
+ul,
+ol,
+li {
+	list-style: none;
+}
+img {
+	vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+html,
+body {
+	height: 100%;
+	line-height: 1;
+	background: #FAFAFA;
+	font-size: 14px;
+	color: #252b42;
+	font-weight: 500;
+	font-family: Montserrat;
+}
+
+
+/*  ---------  */
+.header img {
+	width: 100%;
+	padding-bottom: 20px;
+}
+.menu {
+	padding: 20px;
+}
+.menu img {
+	max-width: 350px;
+	max-height: 272px;
+}
+h1 {
+	font-size: 36px;
+	padding-bottom: 20px;
+	font-weight: 700;
+}
+.content_text {
+	font-size: 16px;
+	padding-bottom: 20px;
+	line-height: 1.5;
+}
+.box {
+	display: flex;
+	padding: 0 50px;
+}
+.content {
+	padding: 20px;
+}
+h2 {
+	font-size: 28px;
+	font-weight: 700;
+	padding: 50px 0;
+}
+.content_title {
+	font-size: 18px;
+	font-weight: 700;
+	padding-bottom: 8px;
+}
+.__quest {
+	padding-bottom: 30px;
+}
+.__about {
+	padding-top: 100px;
+}
+
+.content_button {
+	padding: 14px 0;
+}
+.__button {
+	color: black;
+	font-size: 18px;
+	text-decoration: underline;
+}
+.__img {
+	padding: 20px 0;
+}
+.__img img {
+	width: 100%;
+}
+
+@media (max-width: 500px) {
+	.box {
+		flex-wrap: wrap;
+		padding: 5px;
+	}
+	.menu {
+		padding: 5px;
+	}
+	.content {
+		padding: 20px;
+	}
+	.__about {
+		padding-top: 20px;
+	}
+	.header img {
+		visibility: hidden;
+	}
+}
